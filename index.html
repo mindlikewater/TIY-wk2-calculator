@@ -4,14 +4,20 @@
     <h1>Calculator</h1>
   </head>
   <body>
-    <form>
+    <div class="intro">
+      <p>This is a simple addition calculator.</p>
+      <p>Please input two values to add together.</p>
+    </div>
+    <div class="input-box">
       <input type="text" id="value-one" />
+      <span>+</span>
       <input type="text" id="value-two" />
       <button id="calculate-button">Calculate</button>
-    </form>
+    </div>
 
     <div class="answer">
       Answer: <span id="answer"></span>
     </div>
+  <script src="main.js"></script>
   </body>
 </html>

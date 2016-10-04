@@ -1,0 +1,29 @@
+h1 {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+body {
+  padding: 5px 20px 90px;
+  width: 26%;
+  border: 2px solid orange;
+}
+
+.intro {
+  font-weight: bold;
+  color: darkblue;
+}
+
+button {
+  font-size: 16px;
+}
+
+.answer {
+  padding-top: 40px;
+  color: red;
+  font-weight: bold;
+}
+
+#answer {
+  padding-left: 25px;
+}
